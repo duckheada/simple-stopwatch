@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap");
+
+:root {
+  --clr-light: white;
+  --clr-med: #d7dfe2;
+  --clr-dark: #90a4ae;
+  --clr-dark-heavy: #546e7a;
+}
+
+* {
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+  color: #5661ba;
+  align-items: center;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--clr-med);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#hOne {
+  align-items: center;
+  font-size: 60px;
+  top: 10px;
+}
+
+#display {
+  position: relative;
+  font-size: 50px;
+  padding: 10px;
+  color: #424d9f;
+}
+
+#startstop {
+  height: 40px;
+  width: 100px;
+  left: 200px;
+  font-size: 17px;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background: var(--clr-med);
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
+  color: #3f5bce;
+  align-items: center;
+}
+
+#startstop:hover {
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+  color: #3f5bce;
+}
+
+#reset {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  color: #3f5bce;
+  position: flex;
+  right: 200px;
+  align-items: center;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background: var(--clr-med);
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
+}
+
+#reset:hover {
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+  color: #3f5bce;
+}
+
+#laps {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  color: #3f5bce;
+  position: flex;
+  right: 200px;
+  align-items: center;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background: var(--clr-med);
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
+}
+
+#laps:hover {
+  box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+  color: #3f5bce;
+}
+
+button {
+  display: inline-block;
+  clear: both;
+  margin: 10px 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+}
